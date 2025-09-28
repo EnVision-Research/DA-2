@@ -1,4 +1,4 @@
-# <img src="assets/badges/icon.png" alt="lotus" style="height:1.3em; vertical-align:bottom;"/> DA<sup>2</sup>: Depth Anything in Any Direction
+# <img src="assets/badges/icon2.png" alt="lotus" style="height:1.5em; vertical-align:bottom;"/> DA<sup>2</sup>: Depth Anything in Any Direction
 
 [![Page](https://img.shields.io/badge/Project-Website-pink?logo=googlechrome&logoColor=white)](https://depth-any-in-any-dir.github.io/)
 [![Paper](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)]()
