@@ -12,8 +12,8 @@
 [Jing He](https://jingheya.github.io/)<sup>3</sup>,
 [Yuhao Liu](https://yuhaoliu7456.github.io/)<sup>1</sup>,
 [Xin Lin](https://linxin0.github.io/)<sup>2</sup>,
-[Xin Yang](https://abnervictor.github.io/2023/06/12/Academic-Self-Intro.html)<sup>34</sup>,
-[Ying-Cong Chen](https://www.yingcong.me/)<sup>34&#9993;</sup>,<br>
+[Xin Yang](https://abnervictor.github.io/2023/06/12/Academic-Self-Intro.html)<sup>34</sup>,<br>
+[Ying-Cong Chen](https://www.yingcong.me/)<sup>34&#9993;</sup>,
 [Chunchao Guo]()<sup>1&#9993;</sup>
 
 <span class="author-block"><sup>1</sup>Tencent Hunyuan</span>
