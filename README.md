@@ -7,14 +7,14 @@
 [![Slides](https://img.shields.io/badge/Google-Slides-yellow?logo=slideshare&logoColor=white)](https://docs.google.com/presentation/d/1QUonqLuYGEh0qcqY72pbTXsZimINlyN4rOogy7qX4GY/edit?usp=sharing)
 [![BibTeX](https://img.shields.io/badge/BibTeX-grey?logo=googlescholar&logoColor=white)](https://github.com/EnVision-Research/DA-2#-citation)
 
-[Haodong Li](https://haodong2000.github.io/)<sup>123&sect;</sup>,
-[Wangguangdong Zheng](https://wangguandongzheng.github.io/)<sup>1</sup>,
-[Jing He](https://jingheya.github.io/)<sup>3</sup>,
-[Yuhao Liu](https://yuhaoliu7456.github.io/)<sup>1</sup>,
-[Xin Lin](https://linxin0.github.io/)<sup>2</sup>,
-[Xin Yang](https://abnervictor.github.io/2023/06/12/Academic-Self-Intro.html)<sup>34</sup>,<br>
-[Ying-Cong Chen](https://www.yingcong.me/)<sup>34&#9993;</sup>,
-[Chunchao Guo]()<sup>1&#9993;</sup>
+[Haodong Li](https://haodong2000.github.io/)<sup>123&sect;</sup>
+[Wangguangdong Zheng](https://wangguandongzheng.github.io/)<sup>1</sup>
+[Jing He](https://jingheya.github.io/)<sup>3</sup>
+[Yuhao Liu](https://yuhaoliu7456.github.io/)<sup>1</sup>
+[Xin Lin](https://linxin0.github.io/)<sup>2</sup>
+[Xin Yang](https://abnervictor.github.io/2023/06/12/Academic-Self-Intro.html)<sup>34</sup>
+[Ying-Cong Chen](https://www.yingcong.me/)<sup>34&ddagger;</sup>
+[Chunchao Guo]()<sup>1&ddagger;</sup>
 
 <span class="author-block"><sup>1</sup>Tencent Hunyuan</span>
 <span class="author-block"><sup>2</sup>UC San Diego</span>
@@ -22,7 +22,7 @@
 <span class="author-block"><sup>4</sup>HKUST</span><br>
 <span class="author-block">
     <sup>&sect;</sup>Work primarily done during an internship at Tencent Hunyuan.
-    <sup>&#9993;</sup>Corresponding author.
+    <sup>&ddagger;</sup>Corresponding author.
 </span>
 
 ![teaser](assets/badges/teaser.jpg)
