@@ -27,7 +27,7 @@
 
 ![teaser](assets/badges/teaser.jpg)
 
-<strong>DA<sup>2</sup></strong> predicts dense, scale-invariant distance from a single 360&deg; panorama in an end-to-end manner, with remarkable geometric fidelity and strong zero-shot generalization.
+<strong>DA<sup>2</sup> predicts dense, scale-invariant distance from a single 360&deg; panorama in an end-to-end manner, with remarkable geometric fidelity and strong zero-shot generalization.</strong>
 
 ## 📢 News
 - 2025-09-27 [Paper]() released on arXiv!
