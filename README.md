@@ -30,7 +30,7 @@
 <strong>DA<sup>2</sup> predicts dense, scale-invariant distance from a single 360&deg; panorama in an end-to-end manner, with remarkable geometric fidelity and strong zero-shot generalization.</strong>
 
 ## 📢 News
-- (We are currently cleaning the inference code and building the huggingface gradio demo)
+- We are currently cleaning the inference code and building the huggingface gradio demo, please stay tuned!😊
 - 2025-10-01 [Paper](https://arxiv.org/abs/2509.26618) released on arXiv!
 
 ## 🎓 Citation
