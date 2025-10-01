@@ -30,15 +30,16 @@
 <strong>DA<sup>2</sup> predicts dense, scale-invariant distance from a single 360&deg; panorama in an end-to-end manner, with remarkable geometric fidelity and strong zero-shot generalization.</strong>
 
 ## 📢 News
-- 2025-09-27 [Paper]() released on arXiv!
+- (We are currently cleaning the inference code and building the huggingface gradio demo)
+- 2025-10-01 [Paper](https://arxiv.org/abs/2509.26618) released on arXiv!
 
 ## 🎓 Citation
 If you find our work useful in your research, please consider citing our paper:
 ```bibtex
-@article{he2024lotus,
-    title={Lotus: Diffusion-based Visual Foundation Model for High-quality Dense Prediction},
-    author={He, Jing and Li, Haodong and Yin, Wei and Liang, Yixun and Li, Leheng and Zhou, Kaiqiang and Liu, Hongbo and Liu, Bingbing and Chen, Ying-Cong},
-    journal={arXiv preprint arXiv:2409.18124},
-    year={2024}
+@article{li2025da2,
+    title={DA$^2$: Depth Anything in Any Direction},
+    author={Li, Haodong and Zheng, Wangguangdong and He, Jing and Liu, Yuhao and Lin, Xin and Yang, Xin and Chen, Ying-Cong and Guo, Chunchao},
+    journal={arXiv preprint arXiv:2509.26618},
+    year={2025}
 }
 ```
