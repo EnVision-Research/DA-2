@@ -1,0 +1,39 @@
+{
+    "env": {
+        "seed": 42,
+        "verbose": true
+    },
+    "accelerator": {
+        "report_to": ["tensorboard"],
+        "mixed_precision": "fp16",
+        "accumulation_nsteps": 4,
+        "timeout": 36000
+    },
+    "inference": {
+        "images": "assets/demos",
+        "masks": "assets/masks",
+        "min_pixels": 580000,
+        "max_pixels": 620000
+    },
+    "spherevit": {
+        "vit_w_esphere": {
+            "input_dims": [1024, 1024, 1024, 1024],
+            "hidden_dim": 512,
+            "num_heads": 8,
+            "expansion": 4,
+            "num_layers_head": [2, 2, 2],
+            "dropout": 0.0,
+            "layer_scale": 0.0001,
+            "out_dim": 64,
+            "kernel_size": 3,
+            "num_prompt_blocks": 1,
+            "use_norm": false
+        },
+        "sphere": {
+            "width": 1092,
+            "height": 546,
+            "hfov": 6.2832,
+            "vfov": 3.1416
+        }
+    }
+}
