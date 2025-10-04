@@ -51,9 +51,15 @@ pip install -e src/
 ```
 
 ## 🕹️ Inference
-1. Place your images in a directory, e.g., `assets/demos`.
-2. (Optional) Please your masks (e.g., sky masks for outdoor images) in another directory, e.g., `assets/masks`. The filenames under both directories should be consistent.
-3. Run the inference command: `bash infer.sh`. We've already uploaded the cases appeared in our [project page](https://depth-any-in-any-dir.github.io/).
+| We've pre-uploaded the cases appeared in the [project page](https://depth-any-in-any-dir.github.io/). So you can proceed directly to step 3.😊
+
+1. Images are placed in a directory, e.g., `assets/demos`.
+2. (Optional) Masks (e.g., sky masks for outdoor images) in another directory, e.g., `assets/masks`. The filenames under both directories should be consistent.
+3. Run the inference command:
+```
+sh infer.sh
+```
+4. The visualized distance and normal maps will be saved at `output/infer/vis_all.png`. The projected 3D point clouds will be saved at `output/infer/3dpc`.
 
 ## 🎓 Citation
 If you find our work useful in your research, please consider citing our paper:
