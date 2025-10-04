@@ -37,9 +37,9 @@
 If you find our work useful in your research, please consider citing our paper:
 ```bibtex
 @article{li2025depth,
-    title={DA$^2$: Depth Anything in Any Direction},
-    author={Li, Haodong and Zheng, Wangguangdong and He, Jing and Liu, Yuhao and Lin, Xin and Yang, Xin and Chen, Ying-Cong and Guo, Chunchao},
-    journal={arXiv preprint arXiv:2509.26618},
-    year={2025}
+  title={DA $\^{} 2$: Depth Anything in Any Direction},
+  author={Li, Haodong and Zheng, Wangguangdong and He, Jing and Liu, Yuhao and Lin, Xin and Yang, Xin and Chen, Ying-Cong and Guo, Chunchao},
+  journal={arXiv preprint arXiv:2509.26618},
+  year={2025}
 }
 ```
