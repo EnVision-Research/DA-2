@@ -30,8 +30,30 @@
 <strong>DA<sup>2</sup> predicts dense, scale-invariant distance from a single 360&deg; panorama in an end-to-end manner, with remarkable geometric fidelity and strong zero-shot generalization.</strong>
 
 ## 📢 News
-- We are currently cleaning the inference code and building the huggingface gradio demo, please stay tuned!😊
+- <strong>We are currently building the huggingface gradio demo, please stay tuned!😊</strong>
+- 2025-10-04 The inference code and the [model](https://huggingface.co/haodongli/DA-2) are released!
 - 2025-10-01 [Paper](https://arxiv.org/abs/2509.26618) released on arXiv!
+
+## 🛠️ Setup
+| This installation was tested on: Ubuntu 20.04 LTS, Python 3.12, CUDA 12.2, NVIDIA GeForce RTX 3090.  
+
+1. Clone the repository:
+```
+git clone https://github.com/EnVision-Research/DA-2.git
+cd DA-2
+```
+
+2. Install dependencies using conda:
+```
+conda create -n da-2 python=3.12 -y
+conda activate da-2
+pip install -e src/
+```
+
+## 🕹️ Inference
+1. Place your images in a directory, e.g., `assets/demos`.
+2. (Optional) Please your masks (e.g., sky masks for outdoor images) in another directory, e.g., `assets/masks`. The filenames under both directories should be consistent.
+3. Run the inference command: `bash infer.sh`. We've already uploaded the cases appeared in our [project page](https://depth-any-in-any-dir.github.io/).
 
 ## 🎓 Citation
 If you find our work useful in your research, please consider citing our paper:
