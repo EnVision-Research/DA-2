@@ -9,7 +9,10 @@ from accelerate.utils import (
     set_seed
 )
 import logging
-from datetime import timedelta
+from datetime import (
+    timedelta,
+    datetime
+)
 
 
 def load_config(config_path):
@@ -33,7 +36,7 @@ def prepare_to_run():
     config = load_config(args.config_path)
     kwargs = InitProcessGroupKwargs(timeout=timedelta(seconds=config['accelerator']['timeout']))
     version = os.path.basename(args.config_path)[:-5]
-    output_dir = f'output/{version}'
+    output_dir = f'output/{version}_{datetime.now().strftime("%Y%m%d_%H%M%S")}'
     if not os.path.exists(output_dir): os.makedirs(output_dir, exist_ok=True)
     accu_steps = config['accelerator']['accumulation_nsteps']
     accelerator = Accelerator(
