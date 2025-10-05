@@ -58,7 +58,7 @@ def distance2pointcloud(
     if distance.ndim >= 3: distance = distance.squeeze()
     if save_distance:
         save_path_dis = save_path.replace('3dpc', 'depth').replace('.ply', '.npy')
-        save_dir_dis= os.path.dirname(save_path_dis)
+        save_dir_dis = os.path.dirname(save_path_dis)
         if not os.path.exists(save_dir_dis): os.makedirs(save_dir_dis, exist_ok=True)
         np.save(save_path_dis, distance)
     height, width = distance.shape[:2]
