@@ -32,7 +32,7 @@ def infer(model, config, accelerator, output_dir):
             for i in tqdm(range(infer_data['size']), desc='Saving 3D points'):
                 normal_image = distance2pointcloud(pred_distances[i], 
                     infer_data['images']['cv2'][i], infer_data['masks'][i], 
-                    save_path=os.path.join(output_dir, f'3dpc/{infer_data['filenames'][i]}.ply'), return_normal=True)
+                    save_path=os.path.join(output_dir, f'3dpc/{infer_data['filenames'][i]}.ply'), return_normal=True, save_distance=True)
                 pred_normal_images.append(normal_image)
             concatenate_images(infer_data['images']['PIL'], pred_distance_images, pred_normal_images).save(os.path.join(output_dir, 'vis_all.png'))
 

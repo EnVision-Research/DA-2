@@ -52,9 +52,15 @@ def distance2pointcloud(
     image: np.ndarray,
     mask: np.ndarray,
     save_path: str = None,
-    return_normal: bool = False
+    return_normal: bool = False,
+    save_distance: bool = False
 ):
     if distance.ndim >= 3: distance = distance.squeeze()
+    if save_distance:
+        save_path_dis = save_path.replace('3dpc', 'depth').replace('.ply', '.npy')
+        save_dir_dis= os.path.dirname(save_path_dis)
+        if not os.path.exists(save_dir_dis): os.makedirs(save_dir_dis, exist_ok=True)
+        np.save(save_path_dis, distance)
     height, width = distance.shape[:2]
     points = distance[:, :, None] * sphere_uv2dirs(utils3d.numpy.image_uv(width=width, height=height))
     save_3d_points(points, image, mask, save_path)
