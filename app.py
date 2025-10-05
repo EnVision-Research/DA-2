@@ -126,7 +126,7 @@ demo = gr.Interface(
         <br>
         <strong>Please consider starring <span style="color: orange">&#9733;</span> our <a href="https://github.com/EnVision-Research/DA-2" target="_blank" rel="noopener noreferrer">GitHub Repo</a> if you find this demo useful!</strong>
         </p>
-        <p>Note: the "Input Mask" is optional, all pixels are assumed to be valid if mask is None.</p>
+        <p><strong>Note: the "Input Mask" is optional, all pixels are assumed to be valid if mask is None.</strong></p>
     """,
     inputs=inputs,
     outputs=outputs,
