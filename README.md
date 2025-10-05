@@ -30,7 +30,7 @@
 <strong>DA<sup>2</sup> predicts dense, scale-invariant distance from a single 360&deg; panorama in an end-to-end manner, with remarkable geometric fidelity and strong zero-shot generalization.</strong>
 
 ## 📢 News
-- <strong>We are currently uploading the curated panoramic data, please stay tuned!😊</strong>
+- <strong>We are currently uploading the curated panoramic data, please stay tuned!</strong>
 - 2025-10-04 The 🤗Huggingface Gradio demo ([online](https://huggingface.co/spaces/haodongli/DA-2) and [local](https://github.com/EnVision-Research/DA-2?tab=readme-ov-file#-gradio-demo)) are released!
 - 2025-10-04 The inference code and the [model](https://huggingface.co/haodongli/DA-2) are released!
 - 2025-10-01 [Paper](https://arxiv.org/abs/2509.26618) released on arXiv!
@@ -58,7 +58,7 @@ python app.py
 ```
 
 ## 🕹️ Inference
-| We've pre-uploaded the cases appeared in the [project page](https://depth-any-in-any-dir.github.io/). So you can proceed directly to step 3.😊
+| We've pre-uploaded the cases appeared in the [project page](https://depth-any-in-any-dir.github.io/). So you can proceed directly to step 3.
 
 1. Images are placed in a directory, e.g., `assets/demos`.
 2. (Optional) Masks (e.g., sky masks for outdoor images) in another directory, e.g., `assets/masks`. The filenames under both directories should be consistent.
@@ -69,7 +69,7 @@ sh infer.sh
 4. The visualized distance and normal maps will be saved at `output/infer/vis_all.png`. The projected 3D point clouds will be saved at `output/infer/3dpc`.
 
 ## 🎓 Citation
-If you find our work useful in your research, please consider citing our paper:
+If you find our work useful in your research, please consider citing our paper🌹:
 ```bibtex
 @article{li2025depth,
   title={DA $\^{} 2$: Depth Anything in Any Direction},
