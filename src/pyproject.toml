@@ -27,7 +27,6 @@ dependencies = [
     "einops==0.8.0",
     "timm==1.0.15",
     "trimesh==4.5.2",
-    "open3d==0.19.0",
     "transformers==4.46.3"
 ]
 

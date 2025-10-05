@@ -42,7 +42,6 @@
 git clone https://github.com/EnVision-Research/DA-2.git
 cd DA-2
 ```
-
 2. Install dependencies using conda:
 ```
 conda create -n da-2 python=3.12 -y
@@ -71,3 +70,6 @@ If you find our work useful in your research, please consider citing our paper:
   year={2025}
 }
 ```
+
+## 🤝 Acknowledgement
+This implementation is impossible without the awesome contributions of [MoGe](https://wangrc.site/MoGePage/), [UniK3D](https://lpiccinelli-eth.github.io/pub/unik3d/), [DINOv2](https://github.com/facebookresearch/dinov2), [Accelerate](https://github.com/huggingface/accelerate), [Gradio](https://github.com/gradio-app/gradio), [HuggingFace Hub](https://github.com/huggingface/huggingface_hub), and [PyTorch](https://pytorch.org/) to the open-cource community.
