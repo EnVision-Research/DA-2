@@ -31,6 +31,7 @@
 
 ## 📢 News
 - <strong>We are currently uploading the curated panoramic data, please stay tuned!😊</strong>
+- 2025-10-04 The 🤗Huggingface Gradio demo ([online](https://huggingface.co/spaces/haodongli/DA-2) and [local]()) are released!
 - 2025-10-04 The inference code and the [model](https://huggingface.co/haodongli/DA-2) are released!
 - 2025-10-01 [Paper](https://arxiv.org/abs/2509.26618) released on arXiv!
 
