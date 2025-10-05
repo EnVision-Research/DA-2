@@ -30,7 +30,7 @@
 <strong>DA<sup>2</sup> predicts dense, scale-invariant distance from a single 360&deg; panorama in an end-to-end manner, with remarkable geometric fidelity and strong zero-shot generalization.</strong>
 
 ## 📢 News
-- <strong>We are currently building the huggingface demo and uploading the curated panoramic data, please stay tuned!😊</strong>
+- <strong>We are currently uploading the curated panoramic data, please stay tuned!😊</strong>
 - 2025-10-04 The inference code and the [model](https://huggingface.co/haodongli/DA-2) are released!
 - 2025-10-01 [Paper](https://arxiv.org/abs/2509.26618) released on arXiv!
 
