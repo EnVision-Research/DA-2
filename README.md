@@ -5,7 +5,7 @@
 [![Data](https://img.shields.io/badge/📂%20HuggingFace-Data%20(Soon)-green)]()
 [![HuggingFace Demo](https://img.shields.io/badge/🤗%20HuggingFace-Demo%20-blue)](https://huggingface.co/spaces/haodongli/DA-2)
 [![Slides](https://img.shields.io/badge/Google-Slides-yellow?logo=slideshare&logoColor=white)](https://docs.google.com/presentation/d/1QUonqLuYGEh0qcqY72pbTXsZimINlyN4rOogy7qX4GY/edit?usp=sharing)
-[![BibTeX](https://img.shields.io/badge/BibTeX-grey?logo=googlescholar&logoColor=white)](https://github.com/EnVision-Research/DA-2#-citation)
+[![BibTeX](https://img.shields.io/badge/BibTeX-grey?logo=googlescholar&logoColor=white)](https://github.com/EnVision-Research/DA-2?tab=readme-ov-file#-citation)
 
 [Haodong Li](https://haodong2000.github.io/)<sup>123&sect;</sup>,
 [Wangguangdong Zheng](https://wangguandongzheng.github.io/)<sup>1</sup>,
@@ -31,7 +31,7 @@
 
 ## 📢 News
 - <strong>We are currently uploading the curated panoramic data, please stay tuned!😊</strong>
-- 2025-10-04 The 🤗Huggingface Gradio demo ([online](https://huggingface.co/spaces/haodongli/DA-2) and [local]()) are released!
+- 2025-10-04 The 🤗Huggingface Gradio demo ([online](https://huggingface.co/spaces/haodongli/DA-2) and [local](https://github.com/EnVision-Research/DA-2?tab=readme-ov-file#-gradio-demo)) are released!
 - 2025-10-04 The inference code and the [model](https://huggingface.co/haodongli/DA-2) are released!
 - 2025-10-01 [Paper](https://arxiv.org/abs/2509.26618) released on arXiv!
 
