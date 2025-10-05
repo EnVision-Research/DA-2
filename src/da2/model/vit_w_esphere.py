@@ -220,5 +220,5 @@ class ViT_w_Esphere(nn.Module):
         )
 
         distance = torch.exp(logdistance.clip(min=-8.0, max=8.0) + 2.0)
-        # distance = distance / torch.quantile(distance, 0.98)
+        distance = distance / torch.quantile(distance, 0.98)
         return distance

@@ -49,6 +49,13 @@ conda activate da-2
 pip install -e src/
 ```
 
+## 🤗 Gradio Demo
+1. Online demo: [Hugggingface Space](https://huggingface.co/spaces/haodongli/DA-2)
+2. Local demo:
+```
+python app.py
+```
+
 ## 🕹️ Inference
 | We've pre-uploaded the cases appeared in the [project page](https://depth-any-in-any-dir.github.io/). So you can proceed directly to step 3.😊
 
