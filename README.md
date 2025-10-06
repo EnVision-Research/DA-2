@@ -2,8 +2,8 @@
 
 [![Page](https://img.shields.io/badge/Project-Website-pink?logo=googlechrome&logoColor=white)](https://depth-any-in-any-dir.github.io/)
 [![Paper](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](http://arxiv.org/abs/2509.26618)
-[![Data](https://img.shields.io/badge/📂%20HuggingFace-Data%20(Soon)-green)]()
 [![HuggingFace Demo](https://img.shields.io/badge/🤗%20HuggingFace-Demo%20-yellow)](https://huggingface.co/spaces/haodongli/DA-2)
+[![Data](https://img.shields.io/badge/📂%20HuggingFace-Data%20(Soon)-green)]()
 [![Slides](https://img.shields.io/badge/Google-Slides-blue?logo=slideshare&logoColor=white)](https://docs.google.com/presentation/d/1QUonqLuYGEh0qcqY72pbTXsZimINlyN4rOogy7qX4GY/edit?usp=sharing)
 [![BibTeX](https://img.shields.io/badge/BibTeX-grey?logo=googlescholar&logoColor=white)](https://github.com/EnVision-Research/DA-2?tab=readme-ov-file#-citation)
 
