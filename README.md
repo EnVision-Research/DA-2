@@ -47,8 +47,9 @@ cd DA-2
 ```
 conda create -n da-2 python=3.12 -y
 conda activate da-2
-pip install -e src/
+pip install -e src
 ```
+| For macOS users: Please remove `xformers==0.0.28.post2` from `src/pyproject.toml` before `pip install -e src`, as [xFormers does not support macOS](https://github.com/facebookresearch/xformers/issues/775#issuecomment-1611284979).
 
 ## 🤗 Gradio Demo
 1. Online demo: [Hugggingface Space](https://huggingface.co/spaces/haodongli/DA-2)
