@@ -24,8 +24,11 @@ def read_mask(mask_path, shape):
     return mask
 
 def tensorize(array, model_dtype, device):
-    array = torch.from_numpy(array).to(device).to(model_dtype).unsqueeze(dim=0)
-    return array
+    tensor = torch.from_numpy(array)
+    if tensor.dtype != model_dtype:
+        tensor = tensor.to(model_dtype)
+    tensor = tensor.to(device)
+    return tensor.unsqueeze(dim=0)
 
 def load_infer_data(config, device):
     image_dir = config['inference']['images']
