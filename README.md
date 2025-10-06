@@ -36,7 +36,7 @@
 - 2025-10-01 [Paper](https://arxiv.org/abs/2509.26618) released on arXiv!
 
 ## 🛠️ Setup
-| This installation was tested on: Ubuntu 20.04 LTS, Python 3.12, CUDA 12.2, NVIDIA GeForce RTX 3090.  
+> This installation was tested on: Ubuntu 20.04 LTS, Python 3.12, CUDA 12.2, NVIDIA GeForce RTX 3090.  
 
 1. Clone the repository:
 ```
@@ -49,7 +49,7 @@ conda create -n da-2 python=3.12 -y
 conda activate da-2
 pip install -e src
 ```
-| For macOS users: Please remove `xformers==0.0.28.post2` from `src/pyproject.toml` before `pip install -e src`, as [xFormers does not support macOS](https://github.com/facebookresearch/xformers/issues/775#issuecomment-1611284979).
+> For macOS users: Please remove `xformers==0.0.28.post2` from `src/pyproject.toml` before `pip install -e src`, as [xFormers does not support macOS](https://github.com/facebookresearch/xformers/issues/775#issuecomment-1611284979).
 
 ## 🤗 Gradio Demo
 1. Online demo: [Hugggingface Space](https://huggingface.co/spaces/haodongli/DA-2)
@@ -59,7 +59,7 @@ python app.py
 ```
 
 ## 🕹️ Inference
-| We've pre-uploaded the cases appeared in the [project page](https://depth-any-in-any-dir.github.io/). So you can proceed directly to step 3.
+> We've pre-uploaded the cases appeared in the [project page](https://depth-any-in-any-dir.github.io/). So you can proceed directly to step 3.
 
 1. Images are placed in a directory, e.g., `assets/demos`.
 2. (Optional) Masks (e.g., sky masks for outdoor images) in another directory, e.g., `assets/masks`. The filenames under both directories should be consistent.
