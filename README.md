@@ -30,6 +30,7 @@
 <strong>DA<sup>2</sup> predicts dense, scale-invariant distance from a single 360&deg; panorama in an end-to-end manner, with remarkable geometric fidelity and strong zero-shot generalization.</strong>
 
 ## 📢 News
+- 2025-10-10 The curated panoramic data is released on [huggingface](https://huggingface.co/datasets/haodongli/DA-2)!
 - 2025-10-10 The evaluation code and the [testing data](https://huggingface.co/datasets/haodongli/DA-2-Evaluation) are released!
 - 2025-10-04 The 🤗Huggingface Gradio demo ([online](https://huggingface.co/spaces/haodongli/DA-2) and [local](https://github.com/EnVision-Research/DA-2?tab=readme-ov-file#-gradio-demo)) are released!
 - 2025-10-04 The inference code and the [model](https://huggingface.co/haodongli/DA-2) are released!
