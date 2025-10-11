@@ -1,0 +1,76 @@
+{
+    "env": {
+        "seed": 42,
+        "verbose": true
+    },
+    "accelerator": {
+        "report_to": ["tensorboard"],
+        "mixed_precision": "fp16",
+        "accumulation_nsteps": 4,
+        "timeout": 36000
+    },
+    "inference": {
+        "images": "assets/demos",
+        "masks": "assets/masks",
+        "min_pixels": 580000,
+        "max_pixels": 620000
+    },
+    "evaluation": {
+        "alignment": "median",
+        "datasets_dir": "/home/haodong/data/DA-2/Evaluation",
+        "metric_names": [
+            "abs_relative_difference",
+            "squared_relative_difference",
+            "rmse_linear",
+            "rmse_log",
+            "log10",
+            "delta1_acc",
+            "delta2_acc",
+            "delta3_acc",
+            "i_rmse",
+            "silog_rmse"
+        ],
+        "metric_show": {
+            "abs_relative_difference": "AbsRel",
+            "delta1_acc": "δ_1"
+        },
+        "datasets": {
+            "2d3ds": {
+                "dir": "2D3DS/wo_xyz",
+                "filenames": "eval/datasets/splits/2d3ds.txt",
+                "alignment_max_res": 2048
+            },
+            "matterport3d": {
+                "dir": "Matterport3D",
+                "filenames": "eval/datasets/splits/matterport3d.txt",
+                "alignment_max_res": 2048
+            },
+            "panosuncg": {
+                "dir": "PanoSUNCG/rotated",
+                "filenames": "eval/datasets/splits/panosuncg.txt",
+                "alignment_max_res": 1024
+            }
+        }
+    },
+    "spherevit": {
+        "vit_w_esphere": {
+            "input_dims": [1024, 1024, 1024, 1024],
+            "hidden_dim": 512,
+            "num_heads": 8,
+            "expansion": 4,
+            "num_layers_head": [2, 2, 2],
+            "dropout": 0.0,
+            "layer_scale": 0.0001,
+            "out_dim": 64,
+            "kernel_size": 3,
+            "num_prompt_blocks": 1,
+            "use_norm": false
+        },
+        "sphere": {
+            "width": 1092,
+            "height": 546,
+            "hfov": 6.2832,
+            "vfov": 3.1416
+        }
+    }
+}

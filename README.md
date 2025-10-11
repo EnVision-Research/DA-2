@@ -3,7 +3,7 @@
 [![Page](https://img.shields.io/badge/Project-Website-pink?logo=googlechrome&logoColor=white)](https://depth-any-in-any-dir.github.io/)
 [![Paper](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](http://arxiv.org/abs/2509.26618)
 [![HuggingFace Demo](https://img.shields.io/badge/🤗%20HuggingFace-Demo%20-yellow)](https://huggingface.co/spaces/haodongli/DA-2)
-[![Data](https://img.shields.io/badge/📂%20HuggingFace-Data%20(Soon)-green)]()
+[![Data](https://img.shields.io/badge/📂%20HuggingFace-Data-green)](https://huggingface.co/datasets/haodongli/DA-2)
 [![Slides](https://img.shields.io/badge/Google-Slides-blue?logo=slideshare&logoColor=white)](https://docs.google.com/presentation/d/1QUonqLuYGEh0qcqY72pbTXsZimINlyN4rOogy7qX4GY/edit?usp=sharing)
 [![BibTeX](https://img.shields.io/badge/BibTeX-grey?logo=googlescholar&logoColor=white)](https://github.com/EnVision-Research/DA-2?tab=readme-ov-file#-citation)
 
@@ -30,7 +30,7 @@
 <strong>DA<sup>2</sup> predicts dense, scale-invariant distance from a single 360&deg; panorama in an end-to-end manner, with remarkable geometric fidelity and strong zero-shot generalization.</strong>
 
 ## 📢 News
-- <strong>We are currently uploading the curated panoramic data, please stay tuned!</strong>
+- 2025-10-10 The evaluation code and the [testing data](https://huggingface.co/datasets/haodongli/DA-2-Evaluation) are released!
 - 2025-10-04 The 🤗Huggingface Gradio demo ([online](https://huggingface.co/spaces/haodongli/DA-2) and [local](https://github.com/EnVision-Research/DA-2?tab=readme-ov-file#-gradio-demo)) are released!
 - 2025-10-04 The inference code and the [model](https://huggingface.co/haodongli/DA-2) are released!
 - 2025-10-01 [Paper](https://arxiv.org/abs/2509.26618) released on arXiv!
@@ -49,7 +49,7 @@ conda create -n da-2 python=3.12 -y
 conda activate da-2
 pip install -e src
 ```
-> For macOS users: Please remove `xformers==0.0.28.post2` from `src/pyproject.toml` before `pip install -e src`, as [xFormers does not support macOS](https://github.com/facebookresearch/xformers/issues/775#issuecomment-1611284979).
+> For macOS users: Please remove `xformers==0.0.28.post2` (line 16) from `src/pyproject.toml` before `pip install -e src`, as [xFormers does not support macOS](https://github.com/facebookresearch/xformers/issues/775#issuecomment-1611284979).
 
 ## 🤗 Gradio Demo
 1. Online demo: [Hugggingface Space](https://huggingface.co/spaces/haodongli/DA-2)
@@ -68,6 +68,24 @@ python app.py
 sh infer.sh
 ```
 4. The visualized distance and normal maps will be saved at `output/infer/vis_all.png`. The projected 3D point clouds will be saved at `output/infer/3dpc`.
+
+## 🚗 Evaluation
+1. Download the evaluation datasets from [huggingface](https://huggingface.co/datasets/haodongli/DA-2-Evaluation):
+```
+cd [YOUR_DATA_DIR]
+huggingface-cli login
+hf download --repo-type dataset haodongli/DA-2-Evaluation
+```
+2. Unzip the downloaded datasets:
+```
+tar -zxvf [DATA_NAME].tar.gz
+```
+3. Set the `datasets_dir` (line 20) in `configs/eval.json` with `YOUR_DATA_DIR`. 
+4. Run the evaluation command:
+```
+sh eval.sh
+```
+5. The results will be saved at `output/eval`.
 
 ## 🎓 Citation
 If you find our work useful in your research, please consider citing our paper🌹:
