@@ -5,7 +5,7 @@
 [![HuggingFace Demo](https://img.shields.io/badge/🤗%20HuggingFace-Demo%20-yellow)](https://huggingface.co/spaces/haodongli/DA-2)
 [![Data](https://img.shields.io/badge/📂%20HuggingFace-Data-green)](https://huggingface.co/datasets/haodongli/DA-2)
 [![Slides](https://img.shields.io/badge/Google-Slides-blue?logo=slideshare&logoColor=white)](https://docs.google.com/presentation/d/1QUonqLuYGEh0qcqY72pbTXsZimINlyN4rOogy7qX4GY/edit?usp=sharing)
-[![BibTeX](https://img.shields.io/badge/BibTeX-grey?logo=googlescholar&logoColor=white)](https://github.com/EnVision-Research/DA-2?tab=readme-ov-file#-citation)
+[![BibTeX](https://img.shields.io/badge/BibTeX-grey?logo=googlescholar&logoColor=white)](https://depth-any-in-any-dir.github.io/bibtex.txt)
 
 [Haodong Li](https://haodong2000.github.io/)<sup>123&sect;</sup>,
 [Wangguangdong Zheng](https://wangguandongzheng.github.io/)<sup>1</sup>,
@@ -76,7 +76,7 @@ sh infer.sh
 cd [YOUR_DATA_DIR]
 huggingface-cli login
 hf download --repo-type dataset haodongli/DA-2-Evaluation --local-dir [YOUR_DATA_DIR]
-``` 
+```
 2. Unzip the downloaded datasets:
 ```
 tar -zxvf [DATA_NAME].tar.gz
