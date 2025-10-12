@@ -76,7 +76,7 @@ sh infer.sh
 cd [YOUR_DATA_DIR]
 huggingface-cli login
 hf download --repo-type dataset haodongli/DA-2-Evaluation --local-dir [YOUR_DATA_DIR]
-```
+``` 
 2. Unzip the downloaded datasets:
 ```
 tar -zxvf [DATA_NAME].tar.gz
