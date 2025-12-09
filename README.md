@@ -90,6 +90,8 @@ sh eval.sh
 
 ## 🎓 Citation
 If you find our work useful in your research, please consider citing our paper🌹:
+<br>
+Please note there is a blankspace (" ") between "DA" and "\$^{2}\$" in the BibTeX🥹
 ```bibtex
 @article{li2025depth,
   title={DA $^{2}$: Depth Anything in Any Direction},
